@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Problema\ if\ 2.o \
 	${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o
 
 
@@ -61,6 +62,12 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/Problema\ if\ 2.o
+${OBJECTDIR}/Problema\ if\ 2.o: Problema\ if\ 2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problema\ if\ 2.o Problema\ if\ 2.c
 
 .NO_PARALLEL:${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o
 ${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o: Problemas\ con\ secuencia\ de\ control.c

@@ -19,19 +19,23 @@
  */
 int main() {
 
-     int  x = 15;
-     int  y = 20;
+     int  x = 2;
+     int  y = 6;
      int  z = 5;
-     if(x>y && x>z){
+     int  w = 4;
+     if(x>y && x>z && x>w){
          printf ("El número mayor es : %d",x);
          
      }else{
-         if(y>x && y>z){
+         if(y>x && y>z && y>w){
             printf ("El número mayor es : %d",y);
          }else{
+             if(z>x && z>y && z>w){
              printf ("El número mayor es : %d",z);
+         }else{
+             printf ("El número mayor es : %d",w);
+          }
          }
-         
      }
          
 
