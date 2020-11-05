@@ -19,7 +19,14 @@
  */
 int main() {
 
-    printf("Hola mundo");
+     float  x,y;
+     int z;
+     y = (8.9)*(34)/17;
+     x = (6.18)/5*(14.1-4)/2*(14.1-4)/2;
+     z = 8-7;
+     printf ("El resultado del probléma 1 es : %f\n",x);
+     printf ("El resultado del probléma 2 es: %f\n",y);
+     printf ("El resultado del probléma 3 es: %d\n",z);
     return (EXIT_SUCCESS);
 }
 
