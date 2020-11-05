@@ -19,14 +19,25 @@
  */
 int main() {
 
-     float  x,y;
-     int z;
-     y = (8.9)*(34)/17;
-     x = (6.18)/5*(14.1-4)/2*(14.1-4)/2;
-     z = 8-7;
-     printf ("El resultado del probléma 1 es : %f\n",x);
-     printf ("El resultado del probléma 2 es: %f\n",y);
-     printf ("El resultado del probléma 3 es: %d\n",z);
+     int  x = 1;
+     int  y = 2;
+     int  z = 3;
+     if(x>y && x>z){
+         printf ("El número mayor es : %d\n",x);
+         
+     }else{
+         if(y>x && y>z){
+            printf ("El número mayor es : %d\n",y);
+         }else{
+             printf ("El número mayor es : %d\n",z);
+         }
+         
+     }
+         
+
+     
+     
+     
     return (EXIT_SUCCESS);
 }
 

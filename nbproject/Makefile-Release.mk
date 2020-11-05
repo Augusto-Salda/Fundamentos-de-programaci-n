@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Problemas.o
+	${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o
 
 
 # C Compiler Flags
@@ -62,10 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Problemas.o: Problemas.c
+.NO_PARALLEL:${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o
+${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o: Problemas\ con\ secuencia\ de\ control.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemas.o Problemas.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o Problemas\ con\ secuencia\ de\ control.c
 
 # Subprojects
 .build-subprojects:

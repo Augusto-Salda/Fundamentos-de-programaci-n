@@ -12,7 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>Problemas.c</itemPath>
+      <itemPath>Problemas con secuencia de control.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -36,7 +36,10 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Problemas.c" ex="false" tool="0" flavor2="0">
+      <item path="Problemas con secuencia de control.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,7 +62,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Problemas.c" ex="false" tool="0" flavor2="0">
+      <item path="Problemas con secuencia de control.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
     </conf>
   </confs>
