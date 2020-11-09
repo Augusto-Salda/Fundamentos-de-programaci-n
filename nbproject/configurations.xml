@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Funcion de repeticion while.c</itemPath>
       <itemPath>Problema if 2.c</itemPath>
       <itemPath>Problemas con secuencia de control.c</itemPath>
     </logicalFolder>
@@ -37,6 +38,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Funcion de repeticion while.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Problema if 2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Problemas con secuencia de control.c"
@@ -65,6 +68,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Funcion de repeticion while.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Problema if 2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Problemas con secuencia de control.c"

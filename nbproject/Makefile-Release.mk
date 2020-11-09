@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Funcion\ de\ repeticion\ while.o \
 	${OBJECTDIR}/Problema\ if\ 2.o \
 	${OBJECTDIR}/Problemas\ con\ secuencia\ de\ control.o
 
@@ -62,6 +63,12 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/Funcion\ de\ repeticion\ while.o
+${OBJECTDIR}/Funcion\ de\ repeticion\ while.o: Funcion\ de\ repeticion\ while.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funcion\ de\ repeticion\ while.o Funcion\ de\ repeticion\ while.c
 
 .NO_PARALLEL:${OBJECTDIR}/Problema\ if\ 2.o
 ${OBJECTDIR}/Problema\ if\ 2.o: Problema\ if\ 2.c
