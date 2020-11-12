@@ -1,6 +1,6 @@
 
 /* 
- * File:   main.c
+ * File:   Problemas con secuencia de control
  * Author: Saldaña Pacheco Brian Augusto
  *
  * Created on October 20, 2020, 7:28 PM
