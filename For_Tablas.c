@@ -6,7 +6,7 @@
 
 /* 
  * File:   newmain.c
- * Author: augus
+ * Author: Saladaña Pacheco Brian Augusto
  *
  * Created on November 12, 2020, 4:18 PM
  */
@@ -24,7 +24,6 @@ int main(int argc, const char * argv[])
     //CICLOS FOR EN C
 
     int y = 1 ;
-    int z = 1;
     int c = 1;
     for(int x=1;x<=10;x++){
         printf("------------\n");
