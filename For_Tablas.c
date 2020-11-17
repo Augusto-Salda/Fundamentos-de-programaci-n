@@ -23,7 +23,7 @@ int main(int argc, const char * argv[])
 {
     //CICLOS FOR EN C
 
-    int y = 1 ;
+ 
     int c = 1;
     for(int x=1;x<=10;x++){
         printf("------------\n");
