@@ -14,10 +14,10 @@ void rombo(void);
 int main(){
    int opcion;
      do{
-         system("cmd/c cls");
+         system("cls");
     opcion = menu();
     casos(opcion);
-    system ("cmd/c PAUSE");
+    system ("PAUSE");
      }while(opcion!=7);
     return(0);
 }
@@ -48,25 +48,30 @@ int menu(void)
 void casos(int opcion){
     switch (opcion){
     case 1:
+        system("cls");
         circulo();
     break;
     case 2:
+        system("cls");
         rectangulo();
     break;
     case 3:
+        system("cls");
         triangulo();
     break;
     case 4:
+        system("cls");
         cuadrado();
     break;
     case 5:
+        system("cls");
         rombo();
     break;
     case 6:       
     break;
       
         default:
-            printf("No se incerto ningun dato establecido");
+            printf("No se inserto ningun dato establecido");
             break;
     }
 }
