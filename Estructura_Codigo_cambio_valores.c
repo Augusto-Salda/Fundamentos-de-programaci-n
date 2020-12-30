@@ -6,6 +6,7 @@ float mensaje1(void);
 
 int main(){
     float mensaje,u,v;
+    printf ("Programa que cambia sus valores y los suma");
     mensaje = mensaje1();
     printf("\n\n-------------------\n");
     cambio( &u , &v);
