@@ -6,7 +6,7 @@ float mensaje1(void);
 
 int main(){
     float mensaje,u,v;
-    printf ("Programa que cambia sus valores y los suma");
+    printf ("Programa que cambia sus valores y los suma\n");
     mensaje = mensaje1();
     printf("\n\n-------------------\n");
     cambio( &u , &v);
@@ -27,6 +27,6 @@ float mensaje1(void){
     scanf("%f", &u);
     printf("Ingrese otro valor: \t");
     scanf("%f", &v);
-    printf("\n Estos son tus valores ingresados: u es: %f y v es:%f ",u,v);
+    printf("\n Estos son tus valores ingresados: u es: %f y v es: %f ",u,v);
     printf("\n Y su suma es: %f",u+v);
 }
